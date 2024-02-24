@@ -1,0 +1,61 @@
+body {
+    background-color:rgb(117, 107, 107); 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    background-color: #0a0808;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+    
+}
+.home-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.home-page .intro {
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 60px;
+    
+}
+.home-page img {
+    max-width: 50%;
+    
+    
+}
+.about-page {
+    margin-top: 20px;
+}
+.projects-page {
+    margin-top: 20px;
+}
+.contact-page {
+    margin-top: 20px;
+}
